@@ -1,3 +1,9 @@
+// Challenge 3: Two Sum Problem / ความท้าทายที่ 3: ปัญหา Two Sum
+// EN: Given an array of integers and a target sum, find two numbers in the array that add up to the target.
+
+// TH: กำหนดอาร์เรย์ของจำนวนเต็มและผลรวมเป้าหมาย หาสองจำนวนในอาร์เรย์ที่บวกกันได้ผลรวมเป้าหมาย
+
+
 function twoSum(nums, target) {
     let map = {};
     for (let i = 0; i < nums.length; i++) {
